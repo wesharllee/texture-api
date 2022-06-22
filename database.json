@@ -31,96 +31,31 @@
       "startTime": "16:00",
       "endTime": "19:00",
       "totalHours": 3
-    },
-    {
-      "date": "2022-06-23",
-      "startTime": "01:00",
-      "endTime": "16:00",
-      "totalHours": 15,
-      "id": 2
-    },
-    {
-      "date": "2022-06-30",
-      "startTime": "03:00",
-      "endTime": "04:00",
-      "totalHours": 1,
-      "id": 3
-    },
-    {
-      "date": "2022-06-15",
-      "startTime": "01:00",
-      "endTime": "02:00",
-      "totalHours": 1,
-      "id": 4
-    },
-    {
-      "date": "2022-06-26",
-      "startTime": "19:00",
-      "endTime": "22:00",
-      "totalHours": 3,
-      "id": 5
-    },
-    {
-      "date": "2022-06-19",
-      "startTime": "19:00",
-      "endTime": "22:00",
-      "totalHours": 3,
-      "id": 6
-    },
-    {
-      "date": "2022-06-18",
-      "startTime": "19:00",
-      "endTime": "23:00",
-      "totalHours": 4,
-      "id": 7
-    },
-    {
-      "date": "2022-06-18",
-      "startTime": "01:00",
-      "endTime": "23:00",
-      "totalHours": 22,
-      "id": 8
-    },
-    {
-      "date": "2022-07-01",
-      "startTime": "01:00",
-      "endTime": "03:00",
-      "totalHours": 2,
-      "id": 9
-    },
-    {
-      "date": "2022-06-25",
-      "startTime": "01:00",
-      "endTime": "02:00",
-      "totalHours": 1,
-      "id": 10
-    },
-    {
-      "date": "2022-06-24",
-      "startTime": "01:00",
-      "endTime": "22:00",
-      "totalHours": 21,
-      "id": 11
     }
   ],
   "furnitures": [
     {
       "id": 1,
+      "name": "None",
+      "image": ""
+    },
+      {
+      "id": 2,
       "name": "Green Couch",
       "image": ""
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Black Couch",
       "image": ""
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Vintage Red Furniture Set",
       "image": ""
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Vintage Blue Chair",
       "image": ""
     },
@@ -130,12 +65,12 @@
       "image": ""
     },
     {
-      "id": 4,
+      "id": 7,
       "name": "Vintage Bar",
       "image": ""
     },
     {
-      "id": 5,
+      "id": 8,
       "name": "Black Chair",
       "image": ""
     }
@@ -143,11 +78,16 @@
   "props": [
     {
       "id": 1,
-      "name": "Winston the Deer",
+      "name": "None",
       "image": ""
     },
     {
       "id": 2,
+      "name": "Winston the Deer",
+      "image": ""
+    },
+    {
+      "id": 3,
       "name": "Vintage Fan",
       "image": ""
     }
@@ -155,21 +95,26 @@
   "backdrops": [
     {
       "id": 1,
-      "name": "Red Corner",
+      "name": "None",
       "image": ""
     },
     {
       "id": 2,
-      "name": "Gold Corner",
+      "name": "Red Corner",
       "image": ""
     },
     {
       "id": 3,
-      "name": "Wood Panel",
+      "name": "Gold Corner",
       "image": ""
     },
     {
       "id": 4,
+      "name": "Wood Panel",
+      "image": ""
+    },
+    {
+      "id": 5,
       "name": "White Background",
       "image": ""
     }
@@ -199,287 +144,36 @@
       "id": 1,
       "userId": 1,
       "bookingDateId": 1,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 1,
       "totalcost": 0,
       "eSign": false
-    },
+    }
+  ],
+  "backdropPackages": [
     {
-      "userId": 1,
-      "bookingDateId": 2,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 2,
-      "totalCost": 1175,
-      "eSign": true,
-      "id": 2,
-      "bookingDate": {
-        "date": "2022-06-23",
-        "startTime": "01:00",
-        "endTime": "16:00",
-        "totalHours": 15,
-        "id": 2
-      },
-      "light": {
-        "id": 2,
-        "name": "Studio Lights",
-        "image": "",
-        "lightCost": 50
-      },
-      "user": {
-        "id": 1,
-        "name": "Wes Harllee",
-        "email": "wesharllee@gmail.com",
-        "phoneNumber": "210-912-7220",
-        "isStaff": true,
-        "eSign": ""
-      }
-    },
+      "id": 1,
+      "rentalPackageId": 1,
+      "backdropId": 1
+    }
+  ],
+  "propPackages": [
     {
-      "userId": 2,
-      "bookingDateId": 3,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 3,
-      "totalCost": 125,
-      "eSign": true,
-      "id": 3,
-      "bookingDate": {
-        "date": "2022-06-30",
-        "startTime": "03:00",
-        "endTime": "04:00",
-        "totalHours": 1,
-        "id": 3
-      },
-      "light": {
-        "id": 3,
-        "name": "LEDs",
-        "image": "",
-        "lightCost": 50
-      },
-      "user": {
-        "id": 2,
-        "name": "Not Wes",
-        "email": "notwes@gmail.com",
-        "phoneNumber": "210-912-7220",
-        "isStaff": false,
-        "eSign": ""
-      }
-    },
+      "id": 1,
+      "rentalPackageId": 1,
+      "propId": 1
+    }
+  ],
+  "furniturePackages": [
     {
-      "userId": 2,
-      "bookingDateId": 4,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 2,
-      "totalCost": 0,
-      "eSign": false,
-      "id": 4
-    },
+      "id": 1,
+      "rentalPackageId": 1,
+      "furnitureId": 1
+    }
+  ],
+  "lightPackages": [
     {
-      "userId": 2,
-      "bookingDateId": 5,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 2,
-      "totalCost": 275,
-      "eSign": true,
-      "id": 5,
-      "bookingDate": {
-        "date": "2022-06-26",
-        "startTime": "19:00",
-        "endTime": "22:00",
-        "totalHours": 3,
-        "id": 5
-      },
-      "light": {
-        "id": 2,
-        "name": "Studio Lights",
-        "image": "",
-        "lightCost": 50
-      },
-      "user": {
-        "id": 2,
-        "name": "Not Wes",
-        "email": "notwes@gmail.com",
-        "phoneNumber": "210-912-7220",
-        "isStaff": false,
-        "eSign": ""
-      }
-    },
-    {
-      "userId": 2,
-      "bookingDateId": 6,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 2,
-      "totalCost": 275,
-      "eSign": true,
-      "id": 6,
-      "bookingDate": {
-        "date": "2022-06-19",
-        "startTime": "19:00",
-        "endTime": "22:00",
-        "totalHours": 3,
-        "id": 6
-      },
-      "light": {
-        "id": 2,
-        "name": "Studio Lights",
-        "image": "",
-        "lightCost": 50
-      },
-      "user": {
-        "id": 2,
-        "name": "Not Wes",
-        "email": "notwes@gmail.com",
-        "phoneNumber": "210-912-7220",
-        "isStaff": false,
-        "eSign": ""
-      }
-    },
-    {
-      "userId": 2,
-      "bookingDateId": 7,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 3,
-      "totalCost": 350,
-      "eSign": true,
-      "id": 7,
-      "bookingDate": {
-        "date": "2022-06-18",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "totalHours": 4,
-        "id": 7
-      },
-      "light": {
-        "id": 3,
-        "name": "LEDs",
-        "image": "",
-        "lightCost": 50
-      },
-      "user": {
-        "id": 2,
-        "name": "Not Wes",
-        "email": "notwes@gmail.com",
-        "phoneNumber": "210-912-7220",
-        "isStaff": false,
-        "eSign": ""
-      }
-    },
-    {
-      "userId": 3,
-      "bookingDateId": 8,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 2,
-      "totalCost": 1700,
-      "eSign": true,
-      "id": 8,
-      "bookingDate": {
-        "date": "2022-06-18",
-        "startTime": "01:00",
-        "endTime": "23:00",
-        "totalHours": 22,
-        "id": 8
-      },
-      "light": {
-        "id": 2,
-        "name": "Studio Lights",
-        "image": "",
-        "lightCost": 50
-      },
-      "user": {
-        "email": "climberdude@gmail.com",
-        "fullName": "Ryley Hynes",
-        "isStaff": false,
-        "phoneNumber": "123-456-7890",
-        "id": 3
-      }
-    },
-    {
-      "userId": 3,
-      "bookingDateId": 9,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 2,
-      "totalCost": 200,
-      "eSign": true,
-      "id": 9,
-      "bookingDate": {
-        "date": "2022-07-01",
-        "startTime": "01:00",
-        "endTime": "03:00",
-        "totalHours": 2,
-        "id": 9
-      },
-      "light": {
-        "id": 2,
-        "name": "Studio Lights",
-        "image": "",
-        "lightCost": 50
-      },
-      "user": {
-        "email": "climberdude@gmail.com",
-        "name": "Ryley Hynes",
-        "isStaff": false,
-        "phoneNumber": "123-456-7890",
-        "id": 3
-      }
-    },
-    {
-      "userId": 3,
-      "bookingDateId": 10,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 2,
-      "totalCost": 0,
-      "eSign": false,
-      "id": 10
-    },
-    {
-      "userId": 3,
-      "bookingDateId": 11,
-      "backdropId": 1,
-      "propId": 1,
-      "furnitureId": 1,
-      "lightId": 2,
-      "totalCost": 1625,
-      "eSign": true,
-      "id": 11,
-      "bookingDate": {
-        "date": "2022-06-24",
-        "startTime": "01:00",
-        "endTime": "22:00",
-        "totalHours": 21,
-        "id": 11
-      },
-      "light": {
-        "id": 2,
-        "name": "Studio Lights",
-        "image": "",
-        "lightCost": 50
-      },
-      "user": {
-        "email": "climberdude@gmail.com",
-        "name": "Ryley Hynes",
-        "isStaff": false,
-        "phoneNumber": "123-456-7890",
-        "id": 3
-      }
+      "id": 1,
+      "rentalPackageId": 1,
+      "lightId": 1
     }
   ]
 }
