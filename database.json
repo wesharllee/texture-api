@@ -2,7 +2,8 @@
   "users": [
     {
       "id": 1,
-      "name": "Wes Harllee",
+      "firstName": "Wes",
+      "lastName": "Harllee",
       "email": "wesharllee@gmail.com",
       "phoneNumber": "210-912-7220",
       "isStaff": true,
@@ -10,18 +11,28 @@
     },
     {
       "id": 2,
-      "name": "Not Wes",
-      "email": "notwes@gmail.com",
-      "phoneNumber": "210-912-7220",
-      "isStaff": false,
+      "firstName": "Alexandria",
+      "lastName": "Rowland",
+      "email": "alexmarie08@gmail.com",
+      "phoneNumber": "903-390-9032",
+      "isStaff": true,
       "eSign": ""
     },
     {
       "email": "climberdude@gmail.com",
-      "name": "Ryley Hynes",
+      "firstName": "Ryley",
+      "lastName": "Hynes",
       "isStaff": false,
       "phoneNumber": "123-456-7890",
       "id": 3
+    },
+    {
+      "email": "csmooth@ratrace.com",
+      "firstName": "Camille",
+      "lastName": "Faulkner",
+      "isStaff": false,
+      "phoneNumber": "987-654-3210",
+      "id": 4
     }
   ],
   "bookingDates": [
@@ -31,6 +42,167 @@
       "startTime": "16:00",
       "endTime": "19:00",
       "totalHours": 3
+    },
+    {
+      "date": "2022-06-24",
+      "startTime": "01:00",
+      "endTime": "13:00",
+      "totalHours": 12,
+      "id": 2
+    },
+    {
+      "date": "2022-06-23",
+      "startTime": "02:00",
+      "endTime": "14:00",
+      "totalHours": 12,
+      "id": 3
+    },
+    {
+      "date": "2022-06-24",
+      "startTime": "01:00",
+      "endTime": "17:00",
+      "totalHours": 16,
+      "id": 4
+    },
+    {
+      "date": "2022-06-24",
+      "startTime": "01:00",
+      "endTime": "13:00",
+      "totalHours": 12,
+      "id": 5
+    },
+    {
+      "date": "2022-06-24",
+      "startTime": "01:00",
+      "endTime": "14:00",
+      "totalHours": 13,
+      "id": 6
+    },
+    {
+      "date": "2022-06-24",
+      "startTime": "00:00",
+      "endTime": "12:00",
+      "totalHours": 12,
+      "id": 7
+    },
+    {
+      "date": "2022-06-26",
+      "startTime": "01:00",
+      "endTime": "13:00",
+      "totalHours": 12,
+      "id": 8
+    },
+    {
+      "date": "2022-06-25",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "totalHours": 3,
+      "id": 9
+    },
+    {
+      "date": "2022-06-25",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "totalHours": 2,
+      "id": 10
+    },
+    {
+      "date": "2022-06-22",
+      "startTime": "01:00",
+      "endTime": "03:00",
+      "totalHours": 2,
+      "id": 11
+    },
+    {
+      "date": "2022-06-28",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "totalHours": 2,
+      "id": 12
+    },
+    {
+      "date": "2022-06-15",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "totalHours": 4,
+      "id": 13
+    },
+    {
+      "date": "2022-06-29",
+      "startTime": "13:00",
+      "endTime": "21:00",
+      "totalHours": 8,
+      "id": 14
+    },
+    {
+      "date": "2022-06-30",
+      "startTime": "13:00",
+      "endTime": "18:00",
+      "totalHours": 5,
+      "id": 15
+    },
+    {
+      "date": "2022-06-29",
+      "startTime": "01:00",
+      "endTime": "13:00",
+      "totalHours": 12,
+      "id": 16
+    },
+    {
+      "date": "2022-06-30",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "totalHours": 3,
+      "id": 17
+    },
+    {
+      "date": "",
+      "startTime": "00:00",
+      "endTime": "00:00",
+      "totalHours": 0,
+      "id": 18
+    },
+    {
+      "date": "2022-06-30",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "totalHours": 3,
+      "id": 19
+    },
+    {
+      "date": "2022-06-30",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "totalHours": 3,
+      "id": 20
+    },
+    {
+      "date": "2022-07-01",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "totalHours": 4,
+      "id": 21
+    },
+    {
+      "date": "2022-07-01",
+      "startTime": "01:00",
+      "endTime": "13:00",
+      "totalHours": 12,
+      "id": 22
+    },
+    {
+      "date": "2022-07-01",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "totalHours": 2,
+      "id": 23
+    },
+    {
+      "date": "2022-07-01",
+      "startTime": "15:00",
+      "endTime": "18:00",
+      "totalHours": 3,
+      "id": 24
     }
   ],
   "furnitures": [
@@ -39,19 +211,19 @@
       "name": "None",
       "image": ""
     },
-      {
+    {
       "id": 2,
-      "name": "Green Couch",
-      "image": ""
+      "name": "Black Couch",
+      "image": "https://res.cloudinary.com/wescloud/image/upload/v1656601024/Texture/73AED8A3-30EE-4483-BCAD-1D945EBAD3FC_taccpm.jpg"
     },
     {
       "id": 3,
-      "name": "Black Couch",
-      "image": ""
+      "name": "Vintage Red Furniture Set",
+      "image": "https://res.cloudinary.com/wescloud/image/upload/v1656601026/Texture/693D7428-761C-4325-A514-FE85E5507B41_isquz5.jpg"
     },
     {
       "id": 4,
-      "name": "Vintage Red Furniture Set",
+      "name": "Green Couch",
       "image": ""
     },
     {
@@ -83,11 +255,16 @@
     },
     {
       "id": 2,
+      "name": "Red Crystal Chandelier",
+      "image": "https://res.cloudinary.com/wescloud/image/upload/v1656601020/Texture/0B088AC7-E158-408D-A50A-91DB5FA6899B_hyxdkr.jpg"
+    },
+    {
+      "id": 3,
       "name": "Winston the Deer",
       "image": ""
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Vintage Fan",
       "image": ""
     }
@@ -100,22 +277,22 @@
     },
     {
       "id": 2,
-      "name": "Red Corner",
-      "image": ""
+      "name": "Paper Roll",
+      "image": "https://res.cloudinary.com/wescloud/image/upload/v1656601023/Texture/E5B3DB75-76E2-4DA2-896E-C41E45BF0DF2_dtwoll.jpg"
     },
     {
       "id": 3,
+      "name": "Red Corner",
+      "image": "https://res.cloudinary.com/wescloud/image/upload/v1656601025/Texture/5546FB13-BFE3-473C-9041-58B060A55E4C_z7wbsn.jpg"
+    },
+    {
+      "id": 4,
       "name": "Gold Corner",
       "image": ""
     },
     {
-      "id": 4,
-      "name": "Wood Panel",
-      "image": ""
-    },
-    {
       "id": 5,
-      "name": "White Background",
+      "name": "Wood Panel",
       "image": ""
     }
   ],
@@ -141,39 +318,303 @@
   ],
   "rentalPackages": [
     {
-      "id": 1,
-      "userId": 1,
-      "bookingDateId": 1,
-      "totalcost": 0,
-      "eSign": false
+      "userId": 3,
+      "bookingDateId": 12,
+      "totalCost": 200,
+      "eSign": true,
+      "id": 2,
+      "bookingDate": {
+        "date": "2022-06-28",
+        "startTime": "13:00",
+        "endTime": "15:00",
+        "totalHours": 2,
+        "id": 12
+      },
+      "user": {
+        "email": "climberdude@gmail.com",
+        "name": "Ryley Hynes",
+        "isStaff": false,
+        "phoneNumber": "123-456-7890",
+        "id": 3
+      }
+    },
+    {
+      "userId": 3,
+      "bookingDateId": 13,
+      "totalCost": 350,
+      "eSign": true,
+      "id": 3,
+      "bookingDate": {
+        "date": "2022-06-15",
+        "startTime": "13:00",
+        "endTime": "17:00",
+        "totalHours": 4,
+        "id": 13
+      },
+      "user": {
+        "email": "climberdude@gmail.com",
+        "name": "Ryley Hynes",
+        "isStaff": false,
+        "phoneNumber": "123-456-7890",
+        "id": 3
+      }
+    },
+    {
+      "userId": 3,
+      "bookingDateId": 15,
+      "totalCost": 425,
+      "eSign": true,
+      "id": 4,
+      "bookingDate": {
+        "date": "2022-06-30",
+        "startTime": "13:00",
+        "endTime": "18:00",
+        "totalHours": 5,
+        "id": 15
+      },
+      "user": {
+        "email": "climberdude@gmail.com",
+        "name": "Ryley Hynes",
+        "isStaff": false,
+        "phoneNumber": "123-456-7890",
+        "id": 3
+      }
+    },
+    {
+      "userId": 3,
+      "bookingDateId": 16,
+      "totalCost": 0,
+      "eSign": false,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "bookingDateId": 17,
+      "totalCost": 275,
+      "eSign": true,
+      "id": 6,
+      "bookingDate": {
+        "date": "2022-06-30",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "totalHours": 3,
+        "id": 17
+      },
+      "user": {
+        "email": "csmooth@ratrace.com",
+        "firstName": "Camille",
+        "lastName": "Faulkner",
+        "isStaff": false,
+        "phoneNumber": "987-654-3210",
+        "id": 4
+      }
+    },
+    {
+      "userId": 3,
+      "bookingDateId": 19,
+      "totalCost": 275,
+      "eSign": true,
+      "id": 8,
+      "bookingDate": {
+        "date": "2022-06-30",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "totalHours": 3,
+        "id": 19
+      },
+      "user": {
+        "email": "climberdude@gmail.com",
+        "firstName": "Ryley",
+        "lastName": "Hynes",
+        "isStaff": false,
+        "phoneNumber": "123-456-7890",
+        "id": 3
+      }
+    },
+    {
+      "userId": 4,
+      "bookingDateId": 20,
+      "totalCost": 275,
+      "eSign": true,
+      "id": 9,
+      "bookingDate": {
+        "date": "2022-06-30",
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "totalHours": 3,
+        "id": 20
+      },
+      "user": {
+        "email": "csmooth@ratrace.com",
+        "firstName": "Camille",
+        "lastName": "Faulkner",
+        "isStaff": false,
+        "phoneNumber": "987-654-3210",
+        "id": 4
+      }
     }
   ],
   "backdropPackages": [
     {
-      "id": 1,
-      "rentalPackageId": 1,
-      "backdropId": 1
+      "rentalPackageId": 2,
+      "backdropId": 3,
+      "id": 2
+    },
+    {
+      "rentalPackageId": 3,
+      "backdropId": 2,
+      "id": 3
+    },
+    {
+      "rentalPackageId": 4,
+      "backdropId": 2,
+      "id": 4
+    },
+    {
+      "rentalPackageId": 5,
+      "backdropId": 2,
+      "id": 5
+    },
+    {
+      "rentalPackageId": 6,
+      "backdropId": 2,
+      "id": 6
+    },
+    {
+      "rentalPackageId": 8,
+      "backdropId": 3,
+      "id": 7
+    },
+    {
+      "rentalPackageId": 9,
+      "backdropId": 3,
+      "id": 8
     }
   ],
   "propPackages": [
     {
-      "id": 1,
-      "rentalPackageId": 1,
-      "propId": 1
+      "rentalPackageId": 2,
+      "propId": 2,
+      "id": 2
+    },
+    {
+      "rentalPackageId": 3,
+      "propId": 2,
+      "id": 3
+    },
+    {
+      "rentalPackageId": 4,
+      "propId": 2,
+      "id": 4
+    },
+    {
+      "rentalPackageId": 5,
+      "propId": 2,
+      "id": 5
+    },
+    {
+      "rentalPackageId": 5,
+      "propId": 3,
+      "id": 6
+    },
+    {
+      "rentalPackageId": 6,
+      "propId": 2,
+      "id": 7
+    },
+    {
+      "rentalPackageId": 8,
+      "propId": 2,
+      "id": 8
+    },
+    {
+      "rentalPackageId": 9,
+      "propId": 2,
+      "id": 9
     }
   ],
   "furniturePackages": [
     {
-      "id": 1,
-      "rentalPackageId": 1,
-      "furnitureId": 1
+      "rentalPackageId": 2,
+      "furnitureId": 4,
+      "id": 2
+    },
+    {
+      "rentalPackageId": 3,
+      "furnitureId": 3,
+      "id": 3
+    },
+    {
+      "rentalPackageId": 4,
+      "furnitureId": 4,
+      "id": 4
+    },
+    {
+      "rentalPackageId": 5,
+      "furnitureId": 5,
+      "id": 5
+    },
+    {
+      "rentalPackageId": 6,
+      "furnitureId": 3,
+      "id": 6
+    },
+    {
+      "rentalPackageId": 6,
+      "furnitureId": 6,
+      "id": 7
+    },
+    {
+      "rentalPackageId": 6,
+      "furnitureId": 7,
+      "id": 8
+    },
+    {
+      "rentalPackageId": 8,
+      "furnitureId": 3,
+      "id": 9
+    },
+    {
+      "rentalPackageId": 9,
+      "furnitureId": 5,
+      "id": 10
     }
   ],
   "lightPackages": [
     {
-      "id": 1,
-      "rentalPackageId": 1,
-      "lightId": 1
+      "rentalPackageId": 2,
+      "lightId": 2,
+      "id": 2
+    },
+    {
+      "rentalPackageId": 3,
+      "lightId": 2,
+      "id": 3
+    },
+    {
+      "rentalPackageId": 4,
+      "lightId": 2,
+      "id": 4
+    },
+    {
+      "rentalPackageId": 5,
+      "lightId": 2,
+      "id": 5
+    },
+    {
+      "rentalPackageId": 6,
+      "lightId": 2,
+      "id": 6
+    },
+    {
+      "rentalPackageId": 8,
+      "lightId": 2,
+      "id": 7
+    },
+    {
+      "rentalPackageId": 9,
+      "lightId": 2,
+      "id": 8
     }
   ]
 }
